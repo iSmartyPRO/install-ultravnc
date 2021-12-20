@@ -1,0 +1,10 @@
+{
+  "uri": "https://example.com/installs/ultravnc",
+  "installFolder": "C:\\Windows\\Temp\\install",
+  "setupFile": "UltraVNC_1_3_42_X64_Setup.exe",
+  "setupFolder": "C:\\Program Files\\uvnc bvba\\UltraVNC",
+  "silentinstall": "silentinstall.inf",
+  "customConfig": "ultravnc.ini",
+  "regfile": "allow-local-administrators.reg",
+  "DisplayVersion": "1.3.4.2"
+}
