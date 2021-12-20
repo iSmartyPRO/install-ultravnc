@@ -20,3 +20,15 @@
 
 #### installUVNC.ps1
 Обновите строку №9, указав URL до вашего конфигурационного файла config.json на вашем веб сервере
+
+
+### PowerShell Scripts
+
+Используйте этот код для автоматической установки из GitHub
+```
+#Минимальный код для использования скрипта PowerShell
+$WebClient = New-Object System.Net.WebClient
+$Script = $WebClient.DownloadString('https://raw.githubusercontent.com/iSmartyPRO/install-ultravnc/main/installUVNC.ps1')
+$ScriptBlock = [Scriptblock]::Create($Script)
+Invoke-Command -ScriptBlock $ScriptBlock
+```

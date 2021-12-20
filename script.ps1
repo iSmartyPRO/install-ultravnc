@@ -1,5 +1,5 @@
-#PowerShell Script for manual launch on local computer
+#Минимальный код для использования скрипта PowerShell
 $WebClient = New-Object System.Net.WebClient
-$Script = $WebClient.DownloadString('https://example.com/installs/ultravnc/installUVNC.ps1')
+$Script = $WebClient.DownloadString('https://raw.githubusercontent.com/iSmartyPRO/install-ultravnc/main/installUVNC.ps1')
 $ScriptBlock = [Scriptblock]::Create($Script)
 Invoke-Command -ScriptBlock $ScriptBlock

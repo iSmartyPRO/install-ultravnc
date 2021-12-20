@@ -6,7 +6,7 @@ $config = [Object](Get-Content ".\config.json" | ConvertFrom-Json)
 
 
 <# Web Config #>
-$config = $WebClient.DownloadString('https://example.com/installs/ultravnc/config.json') | ConvertFrom-Json
+$config = $WebClient.DownloadString('https://raw.githubusercontent.com/iSmartyPRO/install-ultravnc/main/config.json') | ConvertFrom-Json
 
 Function downloadFiles {
   if(!(Test-Path $config.installFolder)){

@@ -1,5 +1,5 @@
 {
-  "uri": "https://example.com/installs/ultravnc",
+  "uri": "https://raw.githubusercontent.com/iSmartyPRO/install-ultravnc/main",
   "installFolder": "C:\\Windows\\Temp\\install",
   "setupFile": "UltraVNC_1_3_42_X64_Setup.exe",
   "setupFolder": "C:\\Program Files\\uvnc bvba\\UltraVNC",
