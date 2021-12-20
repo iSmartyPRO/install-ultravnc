@@ -22,9 +22,9 @@
 Обновите строку №9, указав URL до вашего конфигурационного файла config.json на вашем веб сервере
 
 
-### PowerShell Scripts
+### PowerShell Script - GitHub Installer
 
-Используйте этот код для автоматической установки из GitHub
+Используйте этот код для автоматической установки из GitHub, рекомендуется запускать PowerShell от имени Администратора
 ```
 #Минимальный код для использования скрипта PowerShell
 $WebClient = New-Object System.Net.WebClient
